@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 30px;
+    background-color: #000000;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.header__link{
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none;
+}
+input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    background-color: #FFFFFF;
+    padding: 14px;
+}
+.hero{
+    padding: 30px 0;
+    background-image: url("./image/slider2\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero__textbox{
+    width: 277px;
+}
+.hero__title{
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 88px;
+}
+.hero__btn{
+    width: 109px;
+    background-color: #76B900;
+    padding: 18px 0;
+    color: #000000;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    border: none;
+}
+.gaming{
+    padding-top: 41px;
+}
+.gaming__title{
+    color: #000000;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.gaming__box{
+    width: 290px;
+    box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+}
+.gaming__box-texbox{
+    padding: 30px;
+    text-align: center;
+}
+.gaming__text{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 37px;
+    margin-top: 20px;
+}
+.gaming__link{
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-decoration: none;
+}
+.gaming__cards{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
